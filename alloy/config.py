@@ -4,6 +4,7 @@ ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 
 class Config(object):
     SERVICE_VERSION = ''
+    JSONIFY_MIMETYPE = 'application/json; charset=utf-8'
 
     SQLALCHEMY_POOL_SIZE = 80
     SQLALCHEMY_POOL_TIMEOUT = 10
